@@ -9,3 +9,14 @@
 .navbar .form-inline .form-control {
   width: 300px;
 }
+
+@media (max-width: 430px) {
+  .navbar .form-inline .form-control {
+    width: 200px; /* Reduce width for smaller screens */
+  }
+
+  .navbar .form-inline .btn {
+    font-size: 0.8rem; /* Reduce button font size for smaller screens */
+    padding: 0.25rem 0.5rem; /* Adjust button padding for smaller screens */
+  }
+}
