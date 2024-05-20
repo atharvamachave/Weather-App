@@ -34,15 +34,16 @@
               type="search"
               placeholder="Search"
               aria-label="Search"
+              id="input"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn btn-outline-success" id="submit" type="submit">
               Search
             </button>
           </form>
         </div>
       </div>
     </nav>
-    <h3 class="mt-3 text-center">City is : <span id="city">Pune</span></h3>
+    <h3 class="mt-3 text-center">Weather for: <span id="city">Pune</span></h3>
     <div class="container mt-5">
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
@@ -51,14 +52,10 @@
               <h4 class="my-0 fw-normal">Temperature</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">
-                $0<small class="text-muted fw-light">/mo</small>
-              </h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
+                <li>Temperature is : <span id="temp"></span></li>
+                <li>Min Temperature is : <span id="min_temp"></span></li>
+                <li>Max Temperature : <span id="max_temp"></span></li>
               </ul>
             </div>
           </div>
@@ -69,14 +66,10 @@
               <h4 class="my-0 fw-normal">Wind Speed</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">
-                $15<small class="text-muted fw-light">/mo</small>
-              </h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
+                <li>Wind Speed is : <span id="wind_speed"></span></li>
+                <li>Wind Degrees : <span id="wind_degrees"></span></li>
+                <li>Humidity is : <span id="humidity"></span></li>
               </ul>
             </div>
           </div>
@@ -87,14 +80,10 @@
               <h4 class="my-0 fw-normal">Sunrise and Sunset</h4>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">
-                $29<small class="text-muted fw-light">/mo</small>
-              </h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
+                <li>Sunrise is : <span id="sunrise"></span></li>
+                <li>Sunset is : <span id="sunset"></span></li>
+                <li>Cloud Pct is : <span id="cloud_pct"></span></li>
               </ul>
             </div>
           </div>
