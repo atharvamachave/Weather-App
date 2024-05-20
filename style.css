@@ -1,0 +1,11 @@
+.navbar .container-fluid {
+  justify-content: center;
+}
+.navbar .form-inline {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navbar .form-inline .form-control {
+  width: 300px;
+}
